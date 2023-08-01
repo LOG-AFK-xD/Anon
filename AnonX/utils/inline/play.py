@@ -118,7 +118,14 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="👨‍✈️ Sᴜᴘᴘᴏʀᴛ",
+                url=f"T.me/LovePoisonxD",
+            ),
+            InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs 👥", url=f"t.me/THEBLAZENETWORK"),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ Cʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
