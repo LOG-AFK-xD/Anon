@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOGGER_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝆺𝅥⃝🎮 ⃪ͥ͢ ᷟ𝐁 𝐋 𝐀 𝐙 𝐄 ™ 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓𓆪•┼⃖‌ꭗ🎧")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "𝆺𝅥⃝🎮 ⃪ͥ͢ ᷟ™ 𝐌𝐔𝐒𝐈𝐂 𝐁𝐎𝐓𓆪•┼⃖‌ꭗ🎧")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5891727496").split()))
 
@@ -76,7 +76,7 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://te.legra.ph/file/648e6262d7149352e8313.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/136cccf6838b8015f3b6d.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://te.legra.ph/file/56d1760224589ee370186.jpg"
+            START_IMG_URL = "https://telegra.ph/file/136cccf6838b8015f3b6d.jpg"
